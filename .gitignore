@@ -1,0 +1,83 @@
+# ─────────────────────────────
+# Dependencies
+# ─────────────────────────────
+node_modules/
+
+# ─────────────────────────────
+# Build Outputs
+# ─────────────────────────────
+dist/
+dist-ssr/
+build/
+
+# ─────────────────────────────
+# Environment Files
+# ─────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─────────────────────────────
+# Logs
+# ─────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ─────────────────────────────
+# Cache Files
+# ─────────────────────────────
+.eslintcache
+.cache/
+.npm-cache/
+.vite/
+
+# ─────────────────────────────
+# Coverage & Testing
+# ─────────────────────────────
+coverage/
+
+# ─────────────────────────────
+# IDEs & Editors
+# ─────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+
+.idea/
+*.swp
+*.swo
+
+# ─────────────────────────────
+# OS Files
+# ─────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─────────────────────────────
+# Temporary Files
+# ─────────────────────────────
+tmp/
+temp/
+*.tmp
+*.local
+
+# ─────────────────────────────
+# Docker
+# ─────────────────────────────
+docker-data/
+*.pid
+
+# ─────────────────────────────
+# Temporary API Test Files
+# ─────────────────────────────
+test_api.js
+test_api.cjs
+test_modules.cjs
+
+# Any similar test scripts
+test_*.js
+test_*.cjs
